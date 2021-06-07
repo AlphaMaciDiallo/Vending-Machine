@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>NIIT Registrer Student</title>
+		<link rel="stylesheet" href="bases.css">
+		<link rel="stylesheet" href="vmachine.css">
+	</head>
+	<body>
+		
+		<div class="containervm">
+			<header>
+				Welcome to ALPHA'S
+			</header>
+			<div class="sidebarleft">
+				<!-- <div class="image1"><img src="" alt=""></div> -->
+				<!-- <div class="image1"><img src="images/image1.jpg" alt="" style="margin: auto; width: 50px;"></div> -->
+				<div class="image1" type="button" onclick="makeOrderB('001');"></div>
+				<div class="image2" type="button" onclick="makeOrderB('002');"></div>
+				<div class="image3" type="button" onclick="makeOrderB('003');"></div>
+				<div class="image4" type="button" onclick="makeOrderB('004');"></div>
+				<div class="image5" type="button" onclick="makeOrderB('005');"></div>
+				<div class="image6" type="button" onclick="makeOrderB('006');"></div>
+				<div class="image7" type="button" onclick="makeOrderB('007');"></div>
+				<div class="image8" type="button" onclick="makeOrderB('008');"></div>
+				<div class="image9" type="button" onclick="makeOrderB('009');"></div>
+				<div class="image10" type="button" onclick="makeOrderB('010');"></div>
+				<div class="image11" type="button" onclick="makeOrderB('011');"></div>
+				<div class="image12" type="button" onclick="makeOrderB('012');"></div>
+			</div>
+			<div class="sidebarright">
+				<div class="screen">
+					<input type="text" name="" class="screenelt" id="screenelt">
+				</div>
+				<div class="keepad">
+					<!-- <div class="kp1" id="btn1" type="button">1</div> -->
+					<div class="kp1" id="btn1" type="button" onclick="getValue('1');">1</div>
+					<!-- <input class="kp1" id="btn1" type="button" value="1">  -->
+					<div class="kp1" id="btn2" type="button" onclick="getValue('2');">2</div>
+					<div class="kp1" id="btn3" type="button" onclick="getValue('3');">3</div>
+					<div class="kp1" id="btn4" type="button" onclick="getValue('4');">4</div>
+					<div class="kp1" id="btn5" type="button" onclick="getValue('5');">5</div>
+					<div class="kp1" id="btn6" type="button" onclick="getValue('6');">6</div>
+					<div class="kp1" id="btn7" type="button" onclick="getValue('7');">7</div>
+					<div class="kp1" id="btn8" type="button" onclick="getValue('8');">8</div>
+					<div class="kp1" id="btn9" type="button" onclick="getValue('9');">9</div>
+					<div class="kp1" id="btn0" type="button" onclick="getValue('0');">0</div>
+					<div class="kp1" id="btnd" type="button" onclick="getValue('.');">.</div>
+					<div class="kp1" id="btn00" type="button" onclick="getValue('00');">00</div>
+					<div class="kp1_submit" id="submit" type="button" onclick="makeOrder()">SUBMIT</div>
+					<div class="kp1_clean" id="clean" type="button" onclick="resetScreen();">CLEAN</div>
+				</div>
+			</div>
+			<footer>
+				<div class="screenresult">
+					<input type="text" value="Code : " class="restext">
+					<input type="text" class="resultCode" id="resultCode">
+					<input type="text" value="Quantity : " class="restext">
+					<input type="text" class="resultQty" id="resultQty">
+					<input type="text" value="Amount : " class="restext">
+					<input type="text" class="resultAmount" id="resultAmount">
+					<input type="text" value="Balance : " class="restext">
+					<input type="text" class="resultBalance" id="resultBalance">
+				</div>
+			</footer>
+			<!-- <div>
+				<input class="btn" id="submit" type="button" value="SUBMIT"> 
+			</div> -->
+		</div>
+
+		
+		<script src="scriptcopy.js"></script>
+
+	</body>
+</html>
